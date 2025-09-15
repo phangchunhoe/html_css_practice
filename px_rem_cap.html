@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>px vs em vs rem vs cap</title>
+  <style>
+    :root {
+      font-size: 16px; /* 1rem = 16px */
+    }
+
+    body {
+      font-family: "Georgia", serif;
+      line-height: 1.5;
+      padding: 20px;
+    }
+
+    .demo {
+      margin-bottom: 2rem;
+    }
+
+    .demo span {
+      display: inline-block;
+      background: lightblue;
+      margin: 5px;
+      padding: 2px 5px;
+    }
+
+    .px   { width: 50px;  }
+    .em   { width: 3em;   }
+    .rem  { width: 3rem;  }
+    .cap  { width: 3cap;  }
+
+    .nested {
+      font-size: 20px; /* changes em & cap scaling */
+      border: 1px dashed gray;
+      padding: 10px;
+    }
+  </style>
+</head>
+<body>
+  <h2>Default context (root font-size = 16px)</h2>
+  <div class="demo">
+    <span class="px">50px</span>
+    <span class="em">3em</span>
+    <span class="rem">3rem</span>
+    <span class="cap">3cap</span>
+  </div>
+
+  <h2>Inside a larger text container (font-size: 20px)</h2>
+  <div class="demo nested">
+    <span class="px">50px</span>
+    <span class="em">3em</span>
+    <span class="rem">3rem</span>
+    <span class="cap">3cap</span>
+  </div>
+</body>
+</html>

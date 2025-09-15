@@ -1,0 +1,83 @@
+        button{
+            margin: 0px 4px;
+        }
+        .subscribe {
+            background-color: rgb(200, 0, 0);
+            color: white;
+            border: none;
+            padding: 10px 17px;
+            border-radius: 2px;
+            font-size: 15px;
+            transition: opacity 0.15s;
+        }
+
+        .subscribe:hover {
+            cursor: pointer;
+            opacity: 0.7;
+        }
+
+        .subscribe:active {
+            opacity: 0.5;
+        }
+
+        .join{
+            background-color: white;
+            border-color: rgb(41, 118, 211);
+            border-style: solid;
+            border-width: 1.5px;
+            color: rgb(41, 118, 211);
+            padding: 10px 17px;
+            border-radius: 2px;
+            transition: background-color, opacity, color 0.15s;
+        }
+
+        .join:hover{
+            cursor: pointer;
+            background-color: rgb(41, 118, 211);
+            color: white;
+        }
+
+        .join:active {
+            opacity: 0.7;
+        }
+
+        .tweet {
+            background-color: rgb(2, 158, 255);
+            color: white;
+            border: none;
+            padding: 11px 17px;
+            border-radius: 20px;
+            font-weight: bold;
+            font-size: 15px;
+            transition: box-shadow, opacity 0.15s;
+
+        }
+
+        .tweet:hover{
+            cursor: pointer;
+            box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
+        }
+
+        .tweet:active {
+            opacity: 0.7;
+        }
+
+        .sign-up {
+            padding: 14px 18px;
+            background-color: rgb(71, 142, 35);
+            border: none;
+            color: white;
+            font-weight: bold;
+            border-radius: 10px;
+            font-size: 17px;
+            cursor: pointer;
+            transition: box-shadow 0.15s, opacity 0.15s;
+        }
+
+        .sign-up:hover {
+            box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2)
+        }
+
+        .sign-up:active {
+            opacity: 0.8;
+        }
