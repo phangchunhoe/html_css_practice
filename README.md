@@ -41,5 +41,5 @@
 
 [🩻 HTML Code for Buttons](searchbox_practice.html)
 
-[📍 Link to Website](https://phangchunhoe.github.io/html_css_practice/searchbox.html)
+[📍 Link to Website](https://phangchunhoe.github.io/html_css_practice/searchbox_practice.html)
 
